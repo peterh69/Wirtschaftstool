@@ -1,6 +1,9 @@
 # Schlüsseldateien – NIEMALS committen
 fred_API_Key.txt
 Github_Token.txt
+
+# Generierte Dateien
+wirtschaftstool.db
 *.env
 .env*
 

@@ -1,0 +1,204 @@
+Aktie,Makro,Ticker,Korr@Lag0,Bester Lag,Max |Korr|,Korrelation,Richtung
+ALV,S&P 500,^GSPC,0.979,0,0.979,0.979,positiv
+ALV,DAX,^GDAXI,0.976,0,0.976,0.976,positiv
+ALV,MSCI World ETF,URTH,0.973,0,0.973,0.973,positiv
+ALV,NASDAQ 100,^NDX,0.972,0,0.972,0.972,positiv
+ALV,Dow Jones,^DJI,0.968,0,0.968,0.968,positiv
+ALV,Bitcoin,BTC-USD,0.927,2,0.938,0.938,positiv
+ALV,US Inflation CPI,CPIAUCSL,0.926,12,0.93,0.93,positiv
+ALV,EU Inflation HICP,CP0000EZ19M086NEST,0.917,12,0.926,0.926,positiv
+ALV,CAC 40,^FCHI,0.9,0,0.9,0.9,positiv
+ALV,FTSE 100,^FTSE,0.89,0,0.89,0.89,positiv
+ALV,Euro Stoxx 50,^STOXX50E,0.881,0,0.881,0.881,positiv
+ALV,Gold,GC=F,0.872,0,0.872,0.872,positiv
+ALV,USD-Index (DXY),DX=F,0.718,12,0.813,0.813,positiv
+ALV,USD/JPY,JPY=X,0.803,0,0.803,0.803,positiv
+ALV,GBP/USD,GBPUSD=X,-0.631,12,0.718,-0.718,negativ
+ALV,EUR/USD,EURUSD=X,-0.593,12,0.712,-0.712,negativ
+ALV,Kupfer,HG=F,0.623,0,0.623,0.623,positiv
+ALV,Silber,SI=F,0.609,0,0.609,0.609,positiv
+ALV,USD/CHF,CHF=X,-0.601,0,0.601,-0.601,negativ
+ALV,Palladium,PA=F,0.569,0,0.569,0.569,positiv
+ALV,Platin,PL=F,-0.131,12,0.484,-0.484,negativ
+ALV,Erdgas,NG=F,-0.359,12,0.418,-0.418,negativ
+ALV,US 5J Rendite,^FVX,0.254,0,0.254,0.254,positiv
+ALV,Brent Rohöl,BZ=F,-0.215,3,0.245,-0.245,negativ
+ALV,US 30J Rendite,^TYX,-0.014,12,0.172,-0.172,negativ
+ALV,VIX,^VIX,-0.115,3,0.12,-0.12,negativ
+ALV,WTI Rohöl,CL=F,-0.084,3,0.112,-0.112,negativ
+ALV,US 10J Rendite,^TNX,0.104,0,0.104,0.104,positiv
+ALV,USD/CNY,CNY=X,-0.032,12,0.049,-0.049,negativ
+AMZN,NASDAQ 100,^NDX,0.978,0,0.978,0.978,positiv
+AMZN,S&P 500,^GSPC,0.972,0,0.972,0.972,positiv
+AMZN,Dow Jones,^DJI,0.971,0,0.971,0.971,positiv
+AMZN,MSCI World ETF,URTH,0.954,0,0.954,0.954,positiv
+AMZN,DAX,^GDAXI,0.929,0,0.929,0.929,positiv
+AMZN,US Inflation CPI,CPIAUCSL,0.913,0,0.913,0.913,positiv
+AMZN,Bitcoin,BTC-USD,0.897,0,0.897,0.897,positiv
+AMZN,EU Inflation HICP,CP0000EZ19M086NEST,0.884,12,0.891,0.891,positiv
+AMZN,CAC 40,^FCHI,0.843,0,0.843,0.843,positiv
+AMZN,Gold,GC=F,0.821,3,0.828,0.828,positiv
+AMZN,USD-Index (DXY),DX=F,0.715,12,0.795,0.795,positiv
+AMZN,FTSE 100,^FTSE,0.779,0,0.779,0.779,positiv
+AMZN,GBP/USD,GBPUSD=X,-0.695,12,0.777,-0.777,negativ
+AMZN,Euro Stoxx 50,^STOXX50E,0.774,0,0.774,0.774,positiv
+AMZN,Palladium,PA=F,0.733,0,0.733,0.733,positiv
+AMZN,EUR/USD,EURUSD=X,-0.606,12,0.701,-0.701,negativ
+AMZN,USD/JPY,JPY=X,0.698,0,0.698,0.698,positiv
+AMZN,USD/CHF,CHF=X,-0.612,0,0.612,-0.612,negativ
+AMZN,Kupfer,HG=F,0.596,0,0.596,0.596,positiv
+AMZN,Silber,SI=F,0.548,0,0.548,0.548,positiv
+AMZN,Platin,PL=F,-0.222,12,0.51,-0.51,negativ
+AMZN,Erdgas,NG=F,-0.384,12,0.478,-0.478,negativ
+AMZN,US 30J Rendite,^TYX,-0.191,12,0.34,-0.34,negativ
+AMZN,Brent Rohöl,BZ=F,-0.245,9,0.315,-0.315,negativ
+AMZN,WTI Rohöl,CL=F,-0.108,9,0.167,-0.167,negativ
+AMZN,US 10J Rendite,^TNX,-0.063,12,0.165,-0.165,negativ
+AMZN,US 5J Rendite,^FVX,0.102,0,0.102,0.102,positiv
+AMZN,USD/CNY,CNY=X,-0.077,12,0.077,-0.077,negativ
+AMZN,VIX,^VIX,0.006,4,0.018,0.018,positiv
+BNP,Euro Stoxx 50,^STOXX50E,0.934,0,0.934,0.934,positiv
+BNP,CAC 40,^FCHI,0.909,0,0.909,0.909,positiv
+BNP,MSCI World ETF,URTH,0.908,0,0.908,0.908,positiv
+BNP,DAX,^GDAXI,0.904,0,0.904,0.904,positiv
+BNP,FTSE 100,^FTSE,0.89,0,0.89,0.89,positiv
+BNP,S&P 500,^GSPC,0.882,0,0.882,0.882,positiv
+BNP,Bitcoin,BTC-USD,0.842,3,0.875,0.875,positiv
+BNP,NASDAQ 100,^NDX,0.868,1,0.868,0.868,positiv
+BNP,Dow Jones,^DJI,0.855,0,0.855,0.855,positiv
+BNP,USD/JPY,JPY=X,0.824,0,0.824,0.824,positiv
+BNP,US Inflation CPI,CPIAUCSL,0.812,0,0.812,0.812,positiv
+BNP,EU Inflation HICP,CP0000EZ19M086NEST,0.811,0,0.811,0.811,positiv
+BNP,Gold,GC=F,0.793,0,0.793,0.793,positiv
+BNP,USD-Index (DXY),DX=F,0.577,12,0.739,0.739,positiv
+BNP,Kupfer,HG=F,0.672,0,0.672,0.672,positiv
+BNP,EUR/USD,EURUSD=X,-0.431,12,0.642,-0.642,negativ
+BNP,Silber,SI=F,0.602,0,0.602,0.602,positiv
+BNP,GBP/USD,GBPUSD=X,-0.428,12,0.544,-0.544,negativ
+BNP,USD/CHF,CHF=X,-0.486,0,0.486,-0.486,negativ
+BNP,US 5J Rendite,^FVX,0.431,0,0.431,0.431,positiv
+BNP,Platin,PL=F,0.015,11,0.43,-0.43,negativ
+BNP,Palladium,PA=F,0.377,0,0.377,0.377,positiv
+BNP,US 10J Rendite,^TNX,0.318,0,0.318,0.318,positiv
+BNP,Erdgas,NG=F,-0.196,8,0.234,-0.234,negativ
+BNP,VIX,^VIX,-0.213,2,0.233,-0.233,negativ
+BNP,US 30J Rendite,^TYX,0.209,0,0.209,0.209,positiv
+BNP,Brent Rohöl,BZ=F,-0.105,8,0.201,-0.201,negativ
+BNP,USD/CNY,CNY=X,0.028,9,0.095,0.095,positiv
+BNP,WTI Rohöl,CL=F,0.034,9,0.082,-0.082,negativ
+DBK,GBP/USD,GBPUSD=X,0.865,0,0.865,0.865,positiv
+DBK,US 30J Rendite,^TYX,0.717,12,0.732,0.732,positiv
+DBK,USD/CHF,CHF=X,0.587,11,0.707,0.707,positiv
+DBK,US 10J Rendite,^TNX,0.642,12,0.688,0.688,positiv
+DBK,Bitcoin,BTC-USD,0.521,12,0.671,0.671,positiv
+DBK,USD/CNY,CNY=X,0.484,12,0.664,0.664,positiv
+DBK,Palladium,PA=F,-0.64,7,0.663,-0.663,negativ
+DBK,Erdgas,NG=F,0.647,0,0.647,0.647,positiv
+DBK,EUR/USD,EURUSD=X,0.615,0,0.615,0.615,positiv
+DBK,USD-Index (DXY),DX=F,-0.593,0,0.593,-0.593,negativ
+DBK,EU Inflation HICP,CP0000EZ19M086NEST,-0.58,10,0.585,-0.585,negativ
+DBK,US Inflation CPI,CPIAUCSL,-0.577,10,0.583,-0.583,negativ
+DBK,US 5J Rendite,^FVX,0.499,12,0.576,0.576,positiv
+DBK,DAX,^GDAXI,-0.436,12,0.564,-0.564,negativ
+DBK,FTSE 100,^FTSE,-0.31,12,0.52,-0.52,negativ
+DBK,Dow Jones,^DJI,-0.495,10,0.514,-0.514,negativ
+DBK,Gold,GC=F,-0.332,12,0.511,-0.511,negativ
+DBK,Platin,PL=F,0.457,0,0.457,0.457,positiv
+DBK,S&P 500,^GSPC,-0.425,10,0.445,-0.445,negativ
+DBK,NASDAQ 100,^NDX,-0.417,9,0.423,-0.423,negativ
+DBK,Brent Rohöl,BZ=F,0.396,0,0.396,0.396,positiv
+DBK,Silber,SI=F,-0.115,12,0.32,-0.32,negativ
+DBK,CAC 40,^FCHI,-0.184,12,0.251,-0.251,negativ
+DBK,Kupfer,HG=F,-0.037,12,0.241,-0.241,negativ
+DBK,WTI Rohöl,CL=F,0.194,0,0.194,0.194,positiv
+DBK,VIX,^VIX,-0.171,1,0.171,-0.171,negativ
+DBK,USD/JPY,JPY=X,-0.099,0,0.099,-0.099,negativ
+DBK,Euro Stoxx 50,^STOXX50E,0.091,0,0.091,0.091,positiv
+DBK,MSCI World ETF,URTH,0.049,12,0.063,0.063,positiv
+DTE,S&P 500,^GSPC,0.962,6,0.963,0.963,positiv
+DTE,DAX,^GDAXI,0.96,0,0.96,0.96,positiv
+DTE,NASDAQ 100,^NDX,0.955,7,0.958,0.958,positiv
+DTE,Dow Jones,^DJI,0.947,0,0.947,0.947,positiv
+DTE,MSCI World ETF,URTH,0.942,0,0.942,0.942,positiv
+DTE,US Inflation CPI,CPIAUCSL,0.929,12,0.939,0.939,positiv
+DTE,EU Inflation HICP,CP0000EZ19M086NEST,0.926,12,0.936,0.936,positiv
+DTE,Bitcoin,BTC-USD,0.907,0,0.907,0.907,positiv
+DTE,CAC 40,^FCHI,0.872,0,0.872,0.872,positiv
+DTE,FTSE 100,^FTSE,0.856,0,0.856,0.856,positiv
+DTE,Euro Stoxx 50,^STOXX50E,0.852,0,0.852,0.852,positiv
+DTE,Gold,GC=F,0.848,0,0.848,0.848,positiv
+DTE,USD/JPY,JPY=X,0.822,0,0.822,0.822,positiv
+DTE,USD-Index (DXY),DX=F,0.764,12,0.794,0.794,positiv
+DTE,GBP/USD,GBPUSD=X,-0.65,12,0.697,-0.697,negativ
+DTE,EUR/USD,EURUSD=X,-0.643,12,0.69,-0.69,negativ
+DTE,USD/CHF,CHF=X,-0.601,0,0.601,-0.601,negativ
+DTE,Silber,SI=F,0.572,0,0.572,0.572,positiv
+DTE,Kupfer,HG=F,0.571,0,0.571,0.571,positiv
+DTE,Palladium,PA=F,0.516,12,0.551,0.551,positiv
+DTE,Platin,PL=F,-0.176,11,0.449,-0.449,negativ
+DTE,Erdgas,NG=F,-0.365,12,0.417,-0.417,negativ
+DTE,US 5J Rendite,^FVX,0.255,0,0.255,0.255,positiv
+DTE,Brent Rohöl,BZ=F,-0.222,1,0.235,-0.235,negativ
+DTE,US 30J Rendite,^TYX,0.0,12,0.181,-0.181,negativ
+DTE,US 10J Rendite,^TNX,0.112,0,0.112,0.112,positiv
+DTE,WTI Rohöl,CL=F,-0.098,1,0.108,-0.108,negativ
+DTE,USD/CNY,CNY=X,-0.032,12,0.107,-0.107,negativ
+DTE,VIX,^VIX,-0.102,2,0.104,-0.104,negativ
+RGLD,Gold,GC=F,0.942,0,0.942,0.942,positiv
+RGLD,NASDAQ 100,^NDX,0.921,4,0.922,0.922,positiv
+RGLD,EU Inflation HICP,CP0000EZ19M086NEST,0.922,0,0.922,0.922,positiv
+RGLD,DAX,^GDAXI,0.919,0,0.919,0.919,positiv
+RGLD,S&P 500,^GSPC,0.919,0,0.919,0.919,positiv
+RGLD,Dow Jones,^DJI,0.917,0,0.917,0.917,positiv
+RGLD,US Inflation CPI,CPIAUCSL,0.912,0,0.912,0.912,positiv
+RGLD,MSCI World ETF,URTH,0.898,0,0.898,0.898,positiv
+RGLD,Bitcoin,BTC-USD,0.784,5,0.864,0.864,positiv
+RGLD,FTSE 100,^FTSE,0.836,0,0.836,0.836,positiv
+RGLD,GBP/USD,GBPUSD=X,-0.708,12,0.762,-0.762,negativ
+RGLD,CAC 40,^FCHI,0.757,0,0.757,0.757,positiv
+RGLD,Silber,SI=F,0.755,0,0.755,0.755,positiv
+RGLD,USD/CHF,CHF=X,-0.722,0,0.722,-0.722,negativ
+RGLD,Euro Stoxx 50,^STOXX50E,0.72,0,0.72,0.72,positiv
+RGLD,USD-Index (DXY),DX=F,0.625,12,0.711,0.711,positiv
+RGLD,Palladium,PA=F,0.68,0,0.68,0.68,positiv
+RGLD,Kupfer,HG=F,0.667,0,0.667,0.667,positiv
+RGLD,EUR/USD,EURUSD=X,-0.535,12,0.619,-0.619,negativ
+RGLD,USD/JPY,JPY=X,0.6,0,0.6,0.6,positiv
+RGLD,Erdgas,NG=F,-0.464,12,0.476,-0.476,negativ
+RGLD,Platin,PL=F,0.013,12,0.356,-0.356,negativ
+RGLD,US 30J Rendite,^TYX,-0.211,12,0.272,-0.272,negativ
+RGLD,USD/CNY,CNY=X,-0.217,0,0.217,-0.217,negativ
+RGLD,Brent Rohöl,BZ=F,-0.166,3,0.212,-0.212,negativ
+RGLD,US 10J Rendite,^TNX,-0.13,12,0.142,-0.142,negativ
+RGLD,WTI Rohöl,CL=F,-0.021,3,0.055,-0.055,negativ
+RGLD,VIX,^VIX,0.007,11,0.032,0.032,positiv
+RGLD,US 5J Rendite,^FVX,0.007,8,0.021,0.021,positiv
+SIE,S&P 500,^GSPC,0.98,0,0.98,0.98,positiv
+SIE,NASDAQ 100,^NDX,0.978,0,0.978,0.978,positiv
+SIE,DAX,^GDAXI,0.977,0,0.977,0.977,positiv
+SIE,MSCI World ETF,URTH,0.977,0,0.977,0.977,positiv
+SIE,Dow Jones,^DJI,0.963,0,0.963,0.963,positiv
+SIE,Bitcoin,BTC-USD,0.941,1,0.945,0.945,positiv
+SIE,US Inflation CPI,CPIAUCSL,0.939,12,0.94,0.94,positiv
+SIE,EU Inflation HICP,CP0000EZ19M086NEST,0.933,12,0.937,0.937,positiv
+SIE,Gold,GC=F,0.893,0,0.893,0.893,positiv
+SIE,CAC 40,^FCHI,0.889,0,0.889,0.889,positiv
+SIE,FTSE 100,^FTSE,0.882,0,0.882,0.882,positiv
+SIE,Euro Stoxx 50,^STOXX50E,0.88,0,0.88,0.88,positiv
+SIE,USD-Index (DXY),DX=F,0.684,12,0.782,0.782,positiv
+SIE,USD/JPY,JPY=X,0.774,0,0.774,0.774,positiv
+SIE,GBP/USD,GBPUSD=X,-0.631,12,0.719,-0.719,negativ
+SIE,EUR/USD,EURUSD=X,-0.561,12,0.684,-0.684,negativ
+SIE,Kupfer,HG=F,0.677,0,0.677,0.677,positiv
+SIE,Silber,SI=F,0.659,0,0.659,0.659,positiv
+SIE,USD/CHF,CHF=X,-0.654,0,0.654,-0.654,negativ
+SIE,Palladium,PA=F,0.559,12,0.568,0.568,positiv
+SIE,Erdgas,NG=F,-0.375,12,0.437,-0.437,negativ
+SIE,Platin,PL=F,-0.063,12,0.416,-0.416,negativ
+SIE,US 5J Rendite,^FVX,0.218,0,0.218,0.218,positiv
+SIE,Brent Rohöl,BZ=F,-0.155,4,0.202,-0.202,negativ
+SIE,US 30J Rendite,^TYX,-0.01,12,0.195,-0.195,negativ
+SIE,VIX,^VIX,-0.117,1,0.118,-0.118,negativ
+SIE,USD/CNY,CNY=X,-0.09,12,0.098,-0.098,negativ
+SIE,US 10J Rendite,^TNX,0.089,0,0.089,0.089,positiv
+SIE,WTI Rohöl,CL=F,-0.02,4,0.06,-0.06,negativ
