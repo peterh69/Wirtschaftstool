@@ -5,11 +5,16 @@ Wirtschaftstool – Hauptprogramm
 Zeigt:
   1. Aktuelle Wirtschaftsparameter (Rohstoffe, Indizes, FX, Renditen …)
   2. Kauf-/Verkaufsempfehlungen für DBK, SIE, ALV, DTE, RGLD, AMZN, BNP
+  3. Datenbankupdate (20 Jahre Historie, inkrementell)
+  4. Korrelationsanalyse Makro → Aktien
 
 Verwendung:
-  python main.py            # Vollständige Ausgabe
-  python main.py --stocks   # Nur Aktienempfehlungen
-  python main.py --macro    # Nur Makrodaten
+  python main.py               # Vollständige Live-Ausgabe
+  python main.py --stocks      # Nur Aktienempfehlungen (live)
+  python main.py --macro       # Nur Makrodaten (live)
+  python main.py --update-db   # Datenbank aktualisieren
+  python main.py --db-info     # Datenbankinhalt anzeigen
+  python main.py --correlations # Korrelationsanalyse
 """
 
 import argparse
@@ -184,26 +189,84 @@ def _build_detail_text(result) -> str:
     return "\n".join(lines)
 
 
+# ─── Datenbank-Ausgabe ──────────────────────────────────────────────────────────
+
+def print_db_info():
+    from database import db_summary
+    from rich.panel import Panel
+
+    console.print(Panel.fit("[bold cyan]Datenbankinhalt[/bold cyan]", box=box.DOUBLE_EDGE))
+    df = db_summary()
+    if df.empty:
+        console.print("[yellow]Datenbank ist leer. Zuerst --update-db ausführen.[/yellow]")
+        return
+
+    table = Table(box=box.SIMPLE_HEAD, header_style="bold blue", expand=True)
+    table.add_column("Typ",     width=7)
+    table.add_column("Ticker",  min_width=24)
+    table.add_column("Zeilen",  justify="right", width=8)
+    table.add_column("Von",     width=12)
+    table.add_column("Bis",     width=12)
+
+    for _, row in df.iterrows():
+        table.add_row(row["typ"], row["ticker"], str(row["rows"]), row["von"], row["bis"])
+    console.print(table)
+
+
+def run_db_update():
+    from database import update_all_stocks, update_all_economic
+    from rich.panel import Panel
+
+    console.print(Panel.fit("[bold cyan]Datenbankupdate[/bold cyan]", box=box.DOUBLE_EDGE))
+
+    console.print("[bold]Wirtschaftsparameter…[/bold]")
+    eco_res = update_all_economic()
+    eco_new = sum(eco_res.values())
+    console.print(f"  [green]{eco_new} neue Datenpunkte[/green] für {len(eco_res)} Zeitreihen\n")
+
+    console.print("[bold]Aktienkurse…[/bold]")
+    stk_res = update_all_stocks()
+    stk_new = sum(stk_res.values())
+    console.print(f"  [green]{stk_new} neue Datenpunkte[/green] für {len(stk_res)} Aktien\n")
+
+    details = Table(box=box.SIMPLE_HEAD, header_style="bold blue")
+    details.add_column("Ticker", min_width=10)
+    details.add_column("Neue Zeilen", justify="right", width=14)
+    for ticker, n in {**eco_res, **stk_res}.items():
+        details.add_row(ticker, str(n))
+    console.print(details)
+
+
 # ─── Einstiegspunkt ─────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(
         description="Wirtschaftstool – Makrodaten & Aktienempfehlungen"
     )
-    parser.add_argument("--stocks", action="store_true", help="Nur Aktienempfehlungen anzeigen")
-    parser.add_argument("--macro",  action="store_true", help="Nur Makrodaten anzeigen")
+    parser.add_argument("--stocks",       action="store_true", help="Nur Aktienempfehlungen (live)")
+    parser.add_argument("--macro",        action="store_true", help="Nur Makrodaten (live)")
+    parser.add_argument("--update-db",    action="store_true", help="Datenbank aktualisieren (20J Historie)")
+    parser.add_argument("--db-info",      action="store_true", help="Datenbankinhalt anzeigen")
+    parser.add_argument("--correlations", action="store_true", help="Korrelationsanalyse Makro → Aktien")
     args = parser.parse_args()
-
-    show_macro  = args.macro  or not (args.stocks or args.macro)
-    show_stocks = args.stocks or not (args.stocks or args.macro)
 
     console.rule("[bold blue]Wirtschaftstool[/bold blue]")
 
-    if show_macro:
-        print_macro_table()
-
-    if show_stocks:
-        print_stock_recommendations()
+    if args.update_db:
+        run_db_update()
+    elif args.db_info:
+        print_db_info()
+    elif args.correlations:
+        from correlation import run_correlation_analysis, print_correlation_report
+        df = run_correlation_analysis()
+        print_correlation_report(df)
+    else:
+        show_macro  = args.macro  or not (args.stocks or args.macro)
+        show_stocks = args.stocks or not (args.stocks or args.macro)
+        if show_macro:
+            print_macro_table()
+        if show_stocks:
+            print_stock_recommendations()
 
     console.rule()
 
